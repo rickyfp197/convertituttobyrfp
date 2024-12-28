@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <div class="bubu">
+    <head> 
+        <title> ConvertiTuttoByRFP </title>
+        <link href="clap.css"rel ="stylesheet">
+    </head>
+    <body>
+       <h3>Converti da Fahrenheit in Celsius</h3>
+       <label for="fahrenheit">Inserisci la temperatura in fahrenheit</label>
+       <input type="number" id="fahrenheit"/>
+       <button onclick="converti()">Converti</button>
+       <p id="risultato"></p>
+       <script>
+        function converti () {
+            let fahrenheit = document.getElementById ("fahrenheit").value;
+            let celsius = (5/9) *(fahrenheit-32);
+            document.getElementById("risultato").innerText = fahrenheit+ "°F è equivalente a" + celsius + "°C";
+        }
+       </script>
+       <h4>Converti da miglia a chilometri</h4>
+       <label for="miglia">Inserisci la distanza in miglia</label>
+       <input type="number" id="miglia"/>
+       <button onclick="culo()">Converti</button>
+       <p id="risultatob"></p>
+       <script>
+        function culo() {
+            let miglia = document.getElementById ("miglia").value;
+            let chilometri = (1.60934*miglia);
+            document.getElementById("risultatob").innerText = miglia + " miglia sono equivalenti a " + chilometri + "km";
+        }
+       </script>
+       <h5>Converti da ore a giorni</h5>
+       <label for="ore">Inserisci il numero di ore</label>
+       <input type="number" id="ore"/>
+       <button onclick="ciao()">Converti</button>
+       <p id="tette"></p>
+       <script>
+        function ciao () {
+            let ore = document.getElementById ("ore").value;
+            let giorni = (ore/24);
+            document.getElementById("tette").innerText = ore + " ore equivalgono a " + giorni + " giorni"
+        }
+       </script>
+        </body>
+    </div class>
+    </html>
