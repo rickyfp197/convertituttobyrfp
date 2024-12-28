@@ -1,8 +1,19 @@
 body {
-    background-color: rgb(248, 231, 202);
+    background-color: rgb(249, 224, 176);
 }
 .bubu {
-    font-size: larger;
+    font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(125, 31, 31);
+    color: rgb(88, 50, 6);
+    margin: 20px;
+    line-height:0px;
+}
+h3 {
+    font-size:25px;
+}
+h4 {
+    font-size:25px;
+}
+h5 {
+    font-size:25px;
 }
